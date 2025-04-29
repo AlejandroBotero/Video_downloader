@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-*a(mpg3n!#(e8)f2(kv$(=@m$uzaqd=so)&+^_@g=dckq-7fk1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['video-downloader-2pfz.onrender.com']
 
 
 # Application definition
